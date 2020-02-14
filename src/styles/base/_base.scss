@@ -1,0 +1,109 @@
+$primary-color: #dfc57d;
+$secondary-color: #b59450;
+$div-bg-color: #967107b0;
+
+// .carousel {
+//     max-width: 1500px;
+//     display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+
+.responsive-header {
+    font-size: 8vw !important;
+}
+
+.responsive-card-title {
+    font-size: 3vw !important;
+}
+
+.responsive-text {
+    font-size: 4vw !important;
+}
+
+.you-text {
+    font-size: 9vw !important;
+}
+
+@media(min-width:509px){
+    .responsive-card-title{
+        font-size: 2vw !important;
+    }
+    .responsive-header{
+        font-size: 7vw !important;
+    }
+    .responsive-text{
+        font-size: 3.6vw !important;
+    }
+    .you-text {
+        font-size: 7vw !important;
+    }
+}
+
+@media(min-width:710px){
+    .responsive-card-title{
+        font-size: 2vw !important;
+    }
+    .responsive-header{
+        font-size: 6vw !important;
+    }
+    .responsive-text{
+        font-size: 2.7vw !important;
+    }
+    .you-text {
+        font-size: 7vw !important;
+    }
+}
+
+@media(min-width:958px){
+    .responsive-text{
+        font-size: 2.6vw !important;
+    }
+    .responsive-card-title{
+        font-size: 1.8vw !important;
+    }
+    .responsive-header{
+        font-size: 6vw !important;
+    }
+    .you-text {
+        font-size: 6vw !important;
+    }
+}
+
+@media(min-width:1150px){
+    .responsive-text{
+        font-size: 2.2vw !important;
+    }
+    .responsive-header{
+        font-size: 5vw !important;
+    }
+    .you-text {
+        font-size: 5vw !important;
+    }
+}
+@media(min-width:1400px){
+    .responsive-text{
+        font-size: 1.4vw !important;
+    }
+    .responsive-header{
+        font-size: 4vw !important;
+    }
+    .you-text {
+        font-size: 5vw !important;
+    }
+}
+
+@media(max-width:375px){
+    .responsive-text{
+        font-size: 4vw !important;
+    }
+    .responsive-card-title{
+        font-size: 4vw !important;
+    }
+    .responsive-header{
+        font-size: 6vw !important;
+    }
+    .you-text {
+        font-size: 7vw !important;
+    }
+}

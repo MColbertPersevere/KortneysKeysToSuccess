@@ -1,0 +1,21 @@
+.border-top-brown {
+    border-top: $secondary-color 2px solid;
+}
+
+.footer-logo {
+    max-width: 277px;
+}
+
+.text-3 {
+    font-size: 24px !important;
+}
+
+@media (max-width: 750px) { 
+    .footer-logo {
+        width: 170px !important;
+    }
+    .text-3 {
+        font-size: 18px !important;
+        padding: 5px;
+    }
+}

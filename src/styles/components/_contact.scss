@@ -1,0 +1,103 @@
+.svg-contact {
+    width: 40px;
+}
+
+.name {
+    transition: 1s ease all;
+}
+
+.text-contact {
+    font-size: 34px !important;
+}
+
+.text-contact-2 {
+    font-size: 22px !important;
+}
+
+.right-border {
+    border-right: 2px solid $primary-color;
+}
+
+.contact-btn {
+    background-color: $secondary-color !important;
+    color: white !important;
+    border: 1px solid $secondary-color !important;
+}
+
+.contact-btn:hover {
+    background-color: transparent !important;
+    color: $secondary-color !important;
+    border: 1px solid $secondary-color !important;
+}
+
+.brown-text {
+    color: $secondary-color;
+}
+
+.card-hover-left {
+    transition: 1s ease all;
+}
+
+.card-hover-left:hover {
+    box-shadow: -7px 12px 8px #0000000d;
+    transition: .7s ease all;
+}
+
+.card-hover-middle {
+    transition: 1s ease all;
+}
+
+.card-hover-middle:hover {
+    box-shadow: 0px 12px 8px #0000000d;
+    transition: .7s ease all;
+}
+
+.card-hover-right {
+    transition: 1s ease all;
+}
+
+.card-hover-right:hover {
+    box-shadow: 7px 12px 8px #0000000d;
+    transition: .7s ease all;
+}
+
+@media (max-width:767px){
+    .right-border {
+        border-bottom: 2px solid $primary-color;
+        border-right: none;
+    }
+    .push {
+        margin-top: 20px;
+    }
+    .push-2 {
+        margin-top: 15px;
+    }
+    .card-hover-left:hover {
+        box-shadow: none;
+        cursor: default;
+    }
+    .card-hover-middle:hover {
+        box-shadow: none;
+        cursor: default;
+    }
+    .card-hover-right:hover {
+        box-shadow: none;
+        cursor: default;
+    }
+    .card-hover-left {
+        transition: none;
+    }
+    .card-hover-middle {
+        transition: none;
+    }
+    .card-hover-right {
+        transition: none;
+    }
+}
+
+@media (max-width: 520px){
+    .name {
+        font-size: 50px !important;
+        transition: 1s ease all;
+    }
+}

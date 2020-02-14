@@ -1,0 +1,21 @@
+.kortlogo {
+    width: 150px;
+}
+
+.nav-text {
+    font-size: 26px;
+    color: $secondary-color;
+    text-decoration: none;
+    transition: .5s ease all;
+    margin-left: 50px;
+}
+
+.nav-text:hover {
+    color: $primary-color !important;
+    text-decoration: none;
+    transition: 1s ease all;
+}
+
+.border-bottom-brown {
+    border-bottom: $secondary-color 2px solid;
+}

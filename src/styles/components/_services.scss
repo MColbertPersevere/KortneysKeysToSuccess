@@ -1,0 +1,22 @@
+.svg-border {
+    border: solid 1px $secondary-color;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: transparent !important;
+}
+
+.service-bold {
+    color: $primary-color;
+}
+
+.btn-brown {
+    background-color: $secondary-color !important;
+    color: white !important;
+    border: 1px solid $secondary-color !important;
+}
+
+.btn-brown:hover {
+    background-color: transparent !important;
+    color: $secondary-color !important;
+    border: 1px solid $secondary-color !important;
+}

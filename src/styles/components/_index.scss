@@ -1,0 +1,79 @@
+.example-img {
+    max-width: 941px !important;
+    max-height: 525px !important;
+}
+
+.div-size {
+    max-height: 525px !important;
+    min-height: 200px !important;
+}
+
+.text {
+    font-size: 26px !important;
+}
+
+.text-2 {
+    font-size: 24px !important;
+}
+
+.row-index {
+    max-width: 1000px !important;
+}
+
+.my-row{
+    height: 525px !important;
+}
+
+.background-brown {
+    background-color: $secondary-color !important;
+}
+
+.background-gold {
+    // background-color: $primary-color !important;
+    background: linear-gradient(20deg, $secondary-color,$primary-color,white,$secondary-color,$primary-color,white);
+}
+
+.ser-btn:hover {
+    color: $secondary-color !important;
+}
+
+.ap-pic {
+    min-width: 250px !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.ap-pic-2 {
+    min-width: 280px !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.respond {
+    width: 366px !important;
+}
+
+.size-btn {
+    max-width: 200px !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.mission-text {
+    color: $secondary-color;
+}
+
+@media (max-width: 500px) { 
+    .example-img {
+        height: 400px;
+    }
+    .respond {
+        width: 200px !important;
+    }
+    .div-size {
+        height: 269px !important;
+    }
+}
